@@ -7,6 +7,4 @@
 
 <script setup></script>
 
-<style scoped>
-  /* Add your component styles here */
-</style>
+<style scoped></style>

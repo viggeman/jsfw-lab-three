@@ -11,6 +11,7 @@
     "serve-json": "json-server --watch data/db.json --port 4000"
   },
   "dependencies": {
+    "click-outside-vue3": "^4.0.1",
     "json-server": "^1.0.0-alpha.23",
     "nuxt": "^3.10.3",
     "vue": "^3.4.19",
