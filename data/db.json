@@ -1,0 +1,1834 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Swedish Meatballs",
+      "slug": "swedish-meatballs",
+      "origin": "Swedish",
+      "category": "Main Dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 4,
+      "prep_time": 20,
+      "cook_time": 30,
+      "ingredients": [
+        {
+          "name": "ground beef",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "bread crumbs",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "finely chopped"
+        },
+        {
+          "name": "milk",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "egg",
+          "amount": 1,
+          "unit": null
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "butter",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "lingonberry sauce",
+          "amount": null,
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        "In a bowl, combine ground beef, bread crumbs, chopped onion, milk, egg, salt, and black pepper. Mix well.",
+        "Shape the mixture into small meatballs.",
+        "In a frying pan, melt butter over medium heat. Add the meatballs and cook until browned and cooked through, about 10-15 minutes.",
+        "Serve the meatballs with lingonberry sauce."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cured Salmon",
+      "slug": "cured-salmon",
+      "origin": "Swedish",
+      "category": "Appetizer",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": true,
+      "dairy-free": false,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "salmon fillet",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "salt",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "sugar",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "fresh dill",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "black pepper",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "mustard sauce",
+          "amount": null,
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        "In a bowl, combine salt, sugar, chopped fresh dill, and black pepper.",
+        "Place the salmon fillet, skin-side down, on a large piece of plastic wrap.",
+        "Spread the dill mixture over the salmon.",
+        "Wrap the salmon tightly in the plastic wrap and place it in a shallow dish.",
+        "Place a weight on top of the salmon, such as a heavy plate or a few cans, and refrigerate for 2-3 days, turning the salmon every 12 hours.",
+        "Unwrap the salmon and scrape off the dill mixture. Slice the salmon thinly.",
+        "Serve the gravad lax with mustard sauce."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cinnamon Buns",
+      "slug": "cinnamon-buns",
+      "origin": "Swedish",
+      "category": "Dessert",
+      "vegetarian": true,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 12,
+      "prep_time": 20,
+      "cook_time": 10,
+      "ingredients": [
+        {
+          "name": "active dry yeast",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "name": "milk",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "sugar",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "name": "butter",
+          "amount": 75,
+          "unit": "g",
+          "preparation": "melted"
+        },
+        {
+          "name": "egg",
+          "amount": 1,
+          "unit": null
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "ground cinnamon",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "brown sugar",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "butter",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "softened"
+        },
+        {
+          "name": "pearl sugar",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "for topping"
+        }
+      ],
+      "instructions": [
+        "In a small bowl, dissolve yeast in warm milk. Let stand for 5 minutes.",
+        "In a large bowl, combine sugar, melted butter, and egg. Mix well.",
+        "Add the yeast mixture to the sugar mixture and stir to combine.",
+        "Gradually add flour, stirring until a dough forms.",
+        "Turn the dough out onto a floured surface and knead until smooth and elastic, about 5 minutes.",
+        "Place the dough in a greased bowl, cover, and let rise in a warm place for 1 hour, or until doubled in size.",
+        "Preheat the oven to 200°C (400°F).",
+        "In a small bowl, combine ground cinnamon, brown sugar, and softened butter to make the filling.",
+        "Punch down the dough and roll it out into a large rectangle.",
+        "Spread the filling over the dough and roll it up tightly, starting from the long side.",
+        "Cut the dough into 12 equal pieces and place them on a greased baking sheet.",
+        "Cover and let rise for 30 minutes.",
+        "Sprinkle the kanelbullar with pearl sugar and bake for 10-12 minutes, or until golden brown."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Smörgåstårta",
+      "slug": "smorgastarta",
+      "origin": "Swedish",
+      "category": "Main Dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 8,
+      "prep_time": 30,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "white bread",
+          "amount": 10,
+          "unit": "slices"
+        },
+        {
+          "name": "smoked salmon",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "hard-boiled eggs",
+          "amount": 4,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "mayonnaise",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "sour cream",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "dill",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "shrimp",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "lemon",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "radishes",
+          "amount": 4,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "caviar",
+          "amount": 50,
+          "unit": "g"
+        }
+      ],
+      "instructions": [
+        "In a bowl, combine mayonnaise, sour cream, and chopped dill.",
+        "Place 4 slices of white bread on a serving platter. Spread a layer of the mayonnaise mixture over the bread.",
+        "Top with a layer of smoked salmon, followed by a layer of sliced cucumber and sliced hard-boiled eggs.",
+        "Repeat the layers with the remaining bread, mayonnaise mixture, smoked salmon, cucumber, and hard-boiled eggs.",
+        "Spread the remaining mayonnaise mixture over the top and sides of the sandwich cake.",
+        "Decorate the top of the sandwich cake with shrimp, sliced lemon, sliced radishes, and caviar.",
+        "Refrigerate the sandwich cake for at least 2 hours before serving."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Coq au Vin",
+      "slug": "coq-au-vin",
+      "origin": "French",
+      "category": "Main Dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": true,
+      "dairy-free": false,
+      "servings": 4,
+      "prep_time": 20,
+      "cook_time": 90,
+      "ingredients": [
+        {
+          "name": "chicken thighs",
+          "amount": 8,
+          "unit": null
+        },
+        {
+          "name": "bacon",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "diced"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "chopped"
+        },
+        {
+          "name": "carrots",
+          "amount": 2,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "garlic",
+          "amount": 4,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "mushrooms",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "sliced"
+        },
+        {
+          "name": "red wine",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "name": "chicken broth",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "thyme",
+          "amount": 2,
+          "unit": "sprigs"
+        },
+        {
+          "name": "bay leaves",
+          "amount": 2,
+          "unit": null
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "flour",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "butter",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "parsley",
+          "amount": 2,
+          "unit": "tbsp",
+          "preparation": "chopped"
+        }
+      ],
+      "instructions": [
+        "In a large pot, cook the bacon over medium heat until crispy. Remove the bacon and set aside.",
+        "Season the chicken thighs with salt and black pepper. In the same pot, brown the chicken thighs on both sides. Remove the chicken and set aside.",
+        "In the same pot, add the chopped onion, sliced carrots, minced garlic, and sliced mushrooms. Cook until the vegetables are softened.",
+        "Sprinkle flour over the vegetables and stir well to coat.",
+        "Return the bacon and chicken to the pot. Add red wine, chicken broth, thyme, and bay leaves. Bring to a simmer.",
+        "Cover the pot and cook over low heat for about 1 hour, or until the chicken is cooked through and tender.",
+        "Remove the chicken from the pot and keep warm. Increase the heat and simmer the sauce until thickened.",
+        "Stir in butter and chopped parsley. Season with salt and black pepper to taste.",
+        "Serve the chicken with the sauce."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Chicken Shawarma",
+      "slug": "chicken-shawarma",
+      "origin": "Kebab",
+      "category": "Main Dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 20,
+      "ingredients": [
+        {
+          "name": "chicken thighs",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "olive oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "lemon juice",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "amount": 4,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "ground cumin",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ground paprika",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ground coriander",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ground turmeric",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ground cinnamon",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "pita bread",
+          "amount": 4,
+          "unit": null
+        },
+        {
+          "name": "tzatziki sauce",
+          "amount": null,
+          "unit": "for serving"
+        },
+        {
+          "name": "tomato",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "red onion",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        }
+      ],
+      "instructions": [
+        "In a bowl, combine olive oil, lemon juice, minced garlic, ground cumin, ground paprika, ground coriander, ground turmeric, ground cinnamon, salt, and black pepper. Mix well.",
+        "Add the chicken thighs to the bowl and toss to coat them in the marinade. Let marinate for at least 1 hour, or overnight in the refrigerator.",
+        "Preheat the grill or a frying pan over medium-high heat. Cook the chicken thighs for about 5-7 minutes per side, or until cooked through.",
+        "Remove the chicken from the grill or pan and let rest for a few minutes. Slice the chicken into thin strips.",
+        "Warm the pita bread in a toaster or on the grill.",
+        "Spread tzatziki sauce on the pita bread. Top with sliced chicken, tomato, cucumber, and red onion.",
+        "Fold the pita bread in half and serve."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Falafel",
+      "slug": "falafel",
+      "origin": "Middle Eastern",
+      "category": "Main Dish",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 15,
+      "ingredients": [
+        {
+          "name": "dried chickpeas",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "chopped"
+        },
+        {
+          "name": "garlic",
+          "amount": 2,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "fresh parsley",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "fresh cilantro",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "ground cumin",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ground coriander",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "cayenne pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "baking powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "name": "vegetable oil",
+          "amount": 250,
+          "unit": "ml",
+          "preparation": "for frying"
+        }
+      ],
+      "instructions": [
+        "In a food processor, combine dried chickpeas, chopped onion, minced garlic, chopped fresh parsley, chopped fresh cilantro, ground cumin, ground coriander, cayenne pepper, salt, black pepper, and baking powder. Process until the mixture is finely ground.",
+        "Transfer the mixture to a bowl and stir in all-purpose flour. Cover and refrigerate for at least 1 hour.",
+        "In a large pot, heat vegetable oil over medium heat. Form the chickpea mixture into small balls and flatten slightly to form patties.",
+        "Fry the falafel in batches for about 3-4 minutes per side, or until golden brown and crispy.",
+        "Remove the falafel from the oil and drain on paper towels.",
+        "Serve the falafel warm with pita bread, hummus, and tahini sauce."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Hummus",
+      "slug": "hummus",
+      "origin": "Middle Eastern",
+      "category": "Appetizer",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 10,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "chickpeas",
+          "amount": 400,
+          "unit": "g",
+          "preparation": "canned, drained and rinsed"
+        },
+        {
+          "name": "tahini",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "lemon juice",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "garlic",
+          "amount": 2,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "ground cumin",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "olive oil",
+          "amount": 30,
+          "unit": "ml",
+          "preparation": "for drizzling"
+        },
+        {
+          "name": "paprika",
+          "amount": 1,
+          "unit": "tsp",
+          "preparation": "for garnish"
+        },
+        {
+          "name": "fresh parsley",
+          "amount": 2,
+          "unit": "tbsp",
+          "preparation": "for garnish"
+        }
+      ],
+      "instructions": [
+        "In a food processor, combine canned chickpeas, tahini, lemon juice, minced garlic, ground cumin, and salt. Process until smooth.",
+        "Transfer the hummus to a serving bowl. Drizzle with olive oil and sprinkle with paprika and chopped fresh parsley.",
+        "Serve the hummus with pita bread, fresh vegetables, or crackers."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Tabbouleh",
+      "slug": "tabbouleh",
+      "origin": "Middle Eastern",
+      "category": "Salad",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "bulgur",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "uncooked"
+        },
+        {
+          "name": "tomatoes",
+          "amount": 4,
+          "unit": "large",
+          "preparation": "diced"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "diced"
+        },
+        {
+          "name": "green onions",
+          "amount": 4,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "fresh parsley",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "fresh mint",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "lemon juice",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "In a bowl, combine uncooked bulgur, diced tomatoes, diced cucumber, sliced green onions, chopped fresh parsley, and chopped fresh mint.",
+        "In a small bowl, whisk together lemon juice, olive oil, salt, and black pepper.",
+        "Pour the dressing over the bulgur mixture and toss to combine.",
+        "Cover and refrigerate the tabbouleh for at least 1 hour before serving."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Spaghetti Aglio e Olio",
+      "slug": "spaghetti-aglio-e-olio",
+      "origin": "Italian",
+      "category": "Pasta",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": false,
+      "dairy-free": true,
+      "servings": 2,
+      "prep_time": 10,
+      "cook_time": 15,
+      "ingredients": [
+        {
+          "name": "spaghetti",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "garlic",
+          "amount": 3,
+          "unit": "cloves",
+          "preparation": "thinly sliced"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "red pepper flakes",
+          "amount": 0.5,
+          "unit": "g (optional)",
+          "preparation": "optional"
+        },
+        {
+          "name": "parsley",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "Cook spaghetti according to package instructions.",
+        "Meanwhile, heat olive oil in a pan over medium heat. Add garlic and cook until fragrant, about 30 seconds.",
+        "Add red pepper flakes (if using) and cook for another 30 seconds.",
+        "Reserve 125 ml of pasta water before draining spaghetti.",
+        "Drain spaghetti and add it to the pan with garlic oil. Toss to coat.",
+        "Gradually add pasta water, a little at a time, until a light sauce forms.",
+        "Stir in parsley, salt, and pepper to taste."
+      ]
+    },
+
+    {
+      "id": 11,
+      "title": "Caprese Salad",
+      "slug": "caprese-salad",
+      "origin": "Italian",
+      "category": "Salad",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": false,
+      "servings": 2,
+      "prep_time": 10,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "tomatoes",
+          "amount": 2,
+          "unit": null,
+          "preparation": "sliced thinly"
+        },
+        {
+          "name": "fresh mozzarella cheese",
+          "amount": 125,
+          "unit": "g",
+          "preparation": "sliced"
+        },
+        {
+          "name": "fresh basil leaves",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "washed and dried"
+        },
+        {
+          "name": "extra virgin olive oil",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "balsamic vinegar",
+          "amount": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "freshly ground black pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "Arrange tomato slices on a plate.",
+        "Top with mozzarella slices and basil leaves.",
+        "Drizzle with olive oil and balsamic vinegar.",
+        "Season with salt and pepper to taste."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Spaghetti Carbonara",
+      "slug": "spaghetti-carbonara",
+      "origin": "Italian",
+      "category": "Pasta",
+      "vegetarian": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 2,
+      "prep_time": 15,
+      "cook_time": 10,
+      "ingredients": {
+        "pasta": {
+          "name": "spaghetti",
+          "measurement": 200,
+          "unit": "g"
+        },
+        "guanciale": {
+          "name": "guanciale",
+          "measurement": 150,
+          "unit": "g",
+          "preparation": "diced"
+        },
+        "eggs": {
+          "name": "eggs",
+          "measurement": 3,
+          "unit": "large",
+          "preparation": "yolks only"
+        },
+        "parmesan": {
+          "name": "parmesan cheese",
+          "measurement": 125,
+          "unit": "ml",
+          "preparation": "grated"
+        },
+        "pecorino": {
+          "name": "pecorino romano cheese",
+          "measurement": 60,
+          "unit": "ml",
+          "preparation": "grated"
+        },
+        "pepper": {
+          "name": "black pepper",
+          "measurement": "to taste",
+          "unit": null
+        },
+        "salt": {
+          "name": "salt",
+          "measurement": "to taste",
+          "unit": null
+        }
+      },
+      "instructions": [
+        "Cook spaghetti according to package instructions.",
+        "Meanwhile, heat a pan over medium heat. Add guanciale and cook until crispy, about 5-7 minutes. Remove guanciale from the pan with a slotted spoon, leaving the rendered fat in the pan.",
+        "In a large bowl, whisk together egg yolks, parmesan, pecorino, and pepper. Season with salt to taste.",
+        "Reserve about 125 ml of pasta water before draining the spaghetti.",
+        "Drain spaghetti and add it to the pan with the guanciale fat. Toss to coat.",
+        "Immediately add the hot pasta water to the egg mixture, whisking constantly to temper it. This will prevent the eggs from scrambling.",
+        "Pour the egg mixture over the pasta and toss to coat, adding more pasta water if needed to create a creamy sauce.",
+        "Serve immediately, topped with the reserved guanciale and additional parmesan cheese."
+      ]
+    },
+
+    {
+      "id": 13,
+      "title": "Tiramisu",
+      "slug": "tiramisu",
+      "origin": "Italian",
+      "category": "Dessert",
+      "vegetarian": true,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 6,
+      "prep_time": 30,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "egg yolks",
+          "amount": 4,
+          "unit": null
+        },
+        {
+          "name": "sugar",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "mascarpone cheese",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "heavy cream",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "espresso",
+          "amount": 240,
+          "unit": "ml",
+          "preparation": "cooled"
+        },
+        {
+          "name": "amaretto liqueur",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "ladyfingers",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "cocoa powder",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "In a large bowl, whisk together egg yolks and sugar until pale and creamy.",
+        "Add mascarpone cheese and whisk until smooth.",
+        "In a separate bowl, whip heavy cream until stiff peaks form.",
+        "Gently fold the whipped cream into the mascarpone mixture until well combined.",
+        "In a shallow dish, combine espresso and amaretto.",
+        "Dip each ladyfinger into the espresso mixture for a few seconds, then arrange them in the bottom of a 9x9-inch (23x23 cm) serving dish.",
+        "Spread half of the mascarpone mixture over the ladyfingers.",
+        "Repeat with another layer of espresso-dipped ladyfingers and the remaining mascarpone mixture.",
+        "Cover and refrigerate for at least 4 hours, or overnight.",
+        "Before serving, dust the top with cocoad powder."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Pasta Primavera",
+      "slug": "pasta-primavera",
+      "origin": "Italian",
+      "category": "Pasta",
+      "vegetarian": true,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 15,
+      "ingredients": [
+        {
+          "name": "spaghetti",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "garlic",
+          "amount": 4,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "bell pepper",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "sliced"
+        },
+        {
+          "name": "zucchini",
+          "amount": 2,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "cherry tomatoes",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "halved"
+        },
+        {
+          "name": "asparagus",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "cut into 2-inch pieces"
+        },
+        {
+          "name": "fresh basil",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "parmesan cheese",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "grated"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "Cook spaghetti according to package instructions.",
+        "Meanwhile, heat olive oil in a large pan over medium heat. Add minced garlic and cook until fragrant, about 30 seconds.",
+        "Add sliced bell pepper, sliced zuchini, halved cherry tomatoes, and cut asparagus to the pan. Cook until the vegetables are tender-crisp.",
+        "Reserve 125 ml of pasta water before draining the spaghetti.",
+        "Drain spaghetti and add it to the pan with the vegetables. Toss to combine.",
+        "Gradually add pasta water, a little at a time, until a light sauce forms.",
+        "Stir in chopped basil and season with salt and black pepper to taste.",
+        "Serve the pasta primavera with grated parmesan cheese."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Panzanella",
+      "slug": "panzanella",
+      "origin": "Italian",
+      "category": "Salad",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": false,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "bread",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "stale, cubed"
+        },
+        {
+          "name": "tomatoes",
+          "amount": 4,
+          "unit": "large",
+          "preparation": "cubed"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": null,
+          "preparation": "cubed"
+        },
+        {
+          "name": "red onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "sliced"
+        },
+        {
+          "name": "bell pepper",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "cubed"
+        },
+        {
+          "name": "fresh basil",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "chopped"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "red wine vinegar",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "In a large bowl, combine cubed bread, cubed tomatoes, cubed cucumber, sliced red onion, and cubed bell pepper.",
+        "In a small bowl, whisk together olive oil and red wine vinegar. Season with salt and black pepper to taste.",
+        "Drizzle the dressing over the bread and vegetable mixture. Toss to combine.",
+        "Let the panzanella sit for at least 30 minutes before serving to allow the flavors to meld.",
+        "Stir in chopped basil just before serving."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Gazpacho",
+      "slug": "gazpacho",
+      "origin": "Spanish",
+      "category": "Soup",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 15,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "tomatoes",
+          "amount": 1,
+          "unit": "kg",
+          "preparation": "chopped"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "peeled and chopped"
+        },
+        {
+          "name": "red bell pepper",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "chopped"
+        },
+        {
+          "name": "red onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "chopped"
+        },
+        {
+          "name": "garlic",
+          "amount": 2,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "red wine vinegar",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "In a blender, combine chopped tomatoes, chopped cucumber, chopped red bell pepper, chopped red onion, and minced garlic. Blend until smooth.",
+        "With the blender running, gradually add olive oil and red wine vinegar. Blend until well combined.",
+        "Season with salt and black pepper to taste.",
+        "Chill the gazpacho in the refrigerator for at least 2 hours before serving.",
+        "Stir the gazpacho before serving and adjust the seasoning if necessary."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Ratatouille",
+      "slug": "ratatouille",
+      "origin": "French",
+      "category": "Main Dish",
+      "vegetarian": true,
+      "vegan": true,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 20,
+      "cook_time": 40,
+      "ingredients": [
+        {
+          "name": "eggplant",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "cubed"
+        },
+        {
+          "name": "zucchini",
+          "amount": 2,
+          "unit": null,
+          "preparation": "cubed"
+        },
+        {
+          "name": "bell pepper",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "cubed"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "chopped"
+        },
+        {
+          "name": "garlic",
+          "amount": 4,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "tomatoes",
+          "amount": 4,
+          "unit": "large",
+          "preparation": "chopped"
+        },
+        {
+          "name": "fresh thyme",
+          "amount": 2,
+          "unit": "sprigs"
+        },
+        {
+          "name": "fresh basil",
+          "amount": 4,
+          "unit": "leaves",
+          "preparation": "torn"
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        "In a large pot, heat olive oil over medium heat. Add the chopped onion and cook until softened.",
+        "Add the minced garlic and cook until fragrant, about 30 seconds.",
+        "Add the cubed eggplant, zucchini, and bell pepper to the pot. Cook until the vegetables are softened.",
+        "Stir in the chopped tomatoes, fresh thyme, and torn basil leaves. Season with salt and black pepper to taste.",
+        "Cover the pot and simmer for about 20 minutes, or until the vegetables are tender.",
+        "Serve the ratatouille as a side dish or over cooked pasta or rice."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Croque Monsieur",
+      "slug": "croque-monsieur",
+      "origin": "French",
+      "category": "Sandwich",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 2,
+      "prep_time": 10,
+      "cook_time": 10,
+      "ingredients": [
+        {
+          "name": "butter",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "name": "flour",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "name": "milk",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "gruyère cheese",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "grated"
+        },
+        {
+          "name": "dijon mustard",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ham",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "sliced"
+        },
+        {
+          "name": "bread",
+          "amount": 4,
+          "unit": "slices"
+        },
+        {
+          "name": "butter",
+          "amount": 30,
+          "unit": "g",
+          "preparation": "for spreading"
+        }
+      ],
+      "instructions": [
+        "In a saucepan, melt butter over medium heat. Add flour and cook, stirring constantly, for 1-2 minutes.",
+        "Gradually whisk in milk until smooth. Cook, stirring constantly, until the sauce thickens.",
+        "Remove the saucepan from the heat and stir in grated gruyère cheese and dijon mustard until the cheese is melted.",
+        "Preheat the oven to 200°C (400°F).",
+        "Spread butter on one side of each bread slice. Place the bread slices, buttered side down, on a baking sheet.",
+        "Spread the cheese sauce over the bread slices. Top two of the slices with sliced ham. Place the remaining bread slices on top, cheese sauce side down.",
+        "Bake in the preheated oven for about 10 minutes, or until the sandwiches are golden and crispy.",
+        "Serve the croque monsieur warm."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Quiche Lorraine",
+      "slug": "quiche-lorraine",
+      "origin": "French",
+      "category": "Main Dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 6,
+      "prep_time": 20,
+      "cook_time": 40,
+      "ingredients": [
+        {
+          "name": "pie crust",
+          "amount": 1,
+          "unit": null
+        },
+        {
+          "name": "bacon",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "diced"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "chopped"
+        },
+        {
+          "name": "gruyère cheese",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "grated"
+        },
+        {
+          "name": "eggs",
+          "amount": 4,
+          "unit": null
+        },
+        {
+          "name": "heavy cream",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "nutmeg",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Preheat the oven to 190°C (375°F).",
+        "Line a pie dish with the pie crust.",
+        "In a frying pan, cook the diced bacon over medium heat until crispy. Remove the bacon and set aside, leaving the rendered fat in the pan.",
+        "Add the chopped onion to the pan and cook until softened.",
+        "Spread the cooked bacon and onion over the pie crust. Sprinkle grated gruyère cheese over the top.",
+        "In a bowl, whisk together eggs, heavy cream, salt, black pepper, and nutmeg. Pour the egg mixture over the bacon, onion, and cheese.",
+        "Bake in the preheated oven for about 40 minutes, or until the quiche is set and golden brown.",
+        "Let the quiche cool for a few minutes before slicing and serving."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Crepes",
+      "slug": "crepes",
+      "origin": "French",
+      "category": "Dessert",
+      "vegetarian": true,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 6,
+      "prep_time": 10,
+      "cook_time": 20,
+      "ingredients": [
+        {
+          "name": "all-purpose flour",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "name": "eggs",
+          "amount": 2,
+          "unit": null
+        },
+        {
+          "name": "milk",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "water",
+          "amount": 125,
+          "unit": "ml"
+        },
+        {
+          "name": "butter",
+          "amount": 50,
+          "unit": "g",
+          "preparation": "melted"
+        },
+        {
+          "name": "sugar",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "name": "vanilla extract",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "In a blender, combine all-purpose flour, eggs, milk, water, melted butter, sugar, vanilla extract, and salt. Blend until smooth.",
+        "Heat a non-stick skillet over medium heat. Pour a small amount of batter into the skillet and swirl to spread the batter evenly.",
+        "Cook the crepe for about 2 minutes, or until the bottom is light brown. Loosen with a spatula, turn and cook the other side.",
+        "Repeat with the remaining batter, greasing the skillet as needed.",
+        "Serve the crepes warm with your favorite fillings and toppings."
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Beef Bourguignon",
+      "slug": "beef-bourguignon",
+      "origin": "French",
+      "category": "Main Dish",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": true,
+      "dairy-free": false,
+      "servings": 6,
+      "prep_time": 20,
+      "cook_time": 180,
+      "ingredients": [
+        {
+          "name": "beef chuck",
+          "amount": 1,
+          "unit": "kg",
+          "preparation": "cut into 2-inch pieces"
+        },
+        {
+          "name": "bacon",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "diced"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": "large",
+          "preparation": "chopped"
+        },
+        {
+          "name": "carrots",
+          "amount": 4,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "garlic",
+          "amount": 4,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "red wine",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "name": "beef broth",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "tomato paste",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "fresh thyme",
+          "amount": 2,
+          "unit": "sprigs"
+        },
+        {
+          "name": "bay leaves",
+          "amount": 2,
+          "unit": null
+        },
+        {
+          "name": "butter",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "flour",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "mushrooms",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "sliced"
+        },
+        {
+          "name": "parsley",
+          "amount": 2,
+          "unit": "tbsp",
+          "preparation": "chopped"
+        }
+      ],
+      "instructions": [
+        "Preheat the oven to 160°C (325°F).",
+        "In a large pot, cook the diced bacon over medium heat until crispy. Remove the bacon and set aside, leaving the rendered fat in the pot.",
+        "Season the beef chuck with salt and black pepper. In the same pot, brown the beef on all sides. Remove the beef and set aside.",
+        "Add the chopped onion, sliced carrots, and minced garlic to the pot. Cook until the vegetables are softened.",
+        "Stir in flour and cook for 1-2 minutes.",
+        "Return the beef and bacon to the pot. Add red wine, beef broth, tomato paste, fresh thyme, and bay leaves. Bring to a simmer.",
+        "Cover the pot and transfer to the preheated oven. Cook for about 2 hours, or until the beef is tender.",
+        "In a frying pan, melt butter over medium heat. Add the sliced mushrooms and cook until browned.",
+        "Add the cooked mushrooms to the pot with the beef bourguignon. Simmer for another 30 minutes.",
+        "Remove the pot from the oven and discard the thyme sprigs and bay leaves. Stir in chopped parsley.",
+        "Serve the beef bourguignon with mashed potatoes or crusty bread."
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Salade Niçoise",
+      "slug": "salade-nicoise",
+      "origin": "French",
+      "category": "Salad",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": true,
+      "dairy-free": true,
+      "servings": 4,
+      "prep_time": 20,
+      "cook_time": 0,
+      "ingredients": [
+        {
+          "name": "tuna steaks",
+          "amount": 4,
+          "unit": null
+        },
+        {
+          "name": "olive oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "lemon juice",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "garlic",
+          "amount": 2,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "salt",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "unit": "to taste"
+        },
+        {
+          "name": "mixed salad greens",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "cherry tomatoes",
+          "amount": 200,
+          "unit": "g",
+          "preparation": "halved"
+        },
+        {
+          "name": "cucumber",
+          "amount": 1,
+          "unit": null,
+          "preparation": "sliced"
+        },
+        {
+          "name": "red onion",
+          "amount": 1,
+          "unit": "small",
+          "preparation": "sliced"
+        },
+        {
+          "name": "hard-boiled eggs",
+          "amount": 4,
+          "unit": null,
+          "preparation": "halved"
+        },
+        {
+          "name": "kalamata olives",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "name": "anchovy fillets",
+          "amount": 8,
+          "unit": null
+        },
+        {
+          "name": "fresh basil",
+          "amount": 4,
+          "unit": "leaves",
+          "preparation": "torn"
+        }
+      ],
+      "instructions": [
+        "In a bowl, whisk together olive oil, lemon juice, minced garlic, salt, and black pepper. Set aside.",
+        "Season the tuna steaks with salt and black pepper. In a frying pan, heat olive oil over medium-high heat. Add the tuna steaks and cook for about 2-3 minutes per side, or until cooked to your liking. Remove the tuna steaks from the pan and let rest for a few minutes before slicing.",
+        "In a large bowl, combine mixed salad greens, halved cherry tomatoes, sliced cucumber, and sliced red onion. Toss with the dressing.",
+        "Arrange the salad on a serving platter. Top with hard-boiled eggs, kalamata olives, anchovy fillets, and torn basil leaves.",
+        "Arrange the sliced tuna on top of the salad.",
+        "Serve the salade niçoise with crusty bread."
+      ]
+    },
+    {
+      "id": 23,
+      "title": "French Onion Soup",
+      "slug": "french-onion-soup",
+      "origin": "French",
+      "category": "Soup",
+      "vegetarian": false,
+      "vegan": false,
+      "gluten-free": false,
+      "dairy-free": false,
+      "servings": 4,
+      "prep_time": 10,
+      "cook_time": 90,
+      "ingredients": [
+        {
+          "name": "onions",
+          "amount": 4,
+          "unit": "large",
+          "preparation": "sliced"
+        },
+        {
+          "name": "butter",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "name": "olive oil",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "garlic",
+          "amount": 2,
+          "unit": "cloves",
+          "preparation": "minced"
+        },
+        {
+          "name": "beef broth",
+          "amount": 1,
+          "unit": "l"
+        },
+        {
+          "name": "dry white wine",
+          "amount": 125,
+          "unit": "ml"
+        },
+        {
+          "name": "fresh thyme",
+          "amount": 2,
+          "unit": "sprigs"
+        },
+        {
+          "name": "bay leaves",
+          "amount": 2,
+          "unit": null
+        },
+        {
+          "name": "baguette",
+          "amount": 4,
+          "unit": "slices"
+        },
+        {
+          "name": "gruyère cheese",
+          "amount": 100,
+          "unit": "g",
+          "preparation": "grated"
+        }
+      ],
+      "instructions": [
+        "In a large pot, melt butter and olive oil over medium heat. Add the sliced onions and cook until caramelized, about 30-40 minutes.",
+        "Add minced garlic and cook until fragrant, about 30 seconds.",
+        "Stir in beef broth, dry white wine, fresh thyme, and bay leaves. Bring to a simmer.",
+        "Cover the pot and cook over low heat for about 30 minutes, or until the flavors are well combined.",
+        "Preheat the oven to 200 °C (400 °F).",
+        "Arrange the baguette slices on a baking sheet. Toast in the preheated oven for about 5 minutes, or until golden brown.",
+        "Ladle the soup into oven-safe bowls. Top each bowl with a slice of toasted baguette and grated gruyère cheese.",
+        "Place the bowls on a baking sheet and broil in the preheated oven for about 5 minutes, or until the cheese is melted and bubbly.",
+        "Serve the French onion soup hot."
+      ]
+    }
+  ]
+}
