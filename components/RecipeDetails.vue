@@ -34,7 +34,7 @@
       <h2>Description:</h2>
       <p>{{ recipe.description }}</p>
     </div>
-    <Modal :isOpen="drawerStatus" @open-drawer="openDrawer" name="first-modal">
+    <Modal name="first-modal">
       <template #header>
         <div class="m-4">
           <h2 class="border-b-2 mb-4 pb-2">Ingredients</h2>
@@ -73,12 +73,9 @@
 
 <script setup>
   const { recipe } = defineProps(['recipe']);
+  const drawer = inject('drawerStatus');
+  const { openDrawer } = drawer();
   console.log(recipe);
-
-  const drawerStatus = ref(false);
-  const openDrawer = () => {
-    drawerStatus.value = drawerStatus.value === true ? false : true;
-  };
 </script>
 
 <style scoped>

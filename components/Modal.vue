@@ -1,18 +1,14 @@
 <script setup>
-  const props = defineProps({
-    isOpen: Boolean,
-  });
-  const emit = defineEmits(['open-drawer']);
-  const target = ref(null);
+  const isOpen = inject('drawerStatus');
+
+  const { drawerStatus, openDrawer } = isOpen();
 </script>
 
 <template>
-  <div v-if="isOpen" class="modal-mask">
+  <div v-if="drawerStatus" class="modal-mask">
     <div class="modal-wrapper">
       <div class="modal-container" ref="target">
-        <button class="btn" @click.stop="emit('open-drawer')">
-          Open Drawer
-        </button>
+        <button class="btn" @click="openDrawer">Open Drawer</button>
         <div class="modal-header">
           <slot name="header"> default header </slot>
         </div>
