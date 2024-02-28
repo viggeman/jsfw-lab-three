@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="grid grid-cols-4 gap-5">
+  <div class="py-5">
+    <div class="grid grid-cols-3 gap-3">
       <RecipeCard v-for="recipe in recipes" :key="recipe.id" :recipe="recipe" />
     </div>
   </div>
