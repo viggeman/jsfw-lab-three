@@ -7,7 +7,7 @@
 <template>
   <div v-if="drawerStatus" class="modal-mask">
     <div class="modal-wrapper">
-      <div class="modal-container" ref="target">
+      <div class="modal-container">
         <button class="btn" @click="openDrawer">Open Drawer</button>
         <div class="modal-header">
           <slot name="header"> default header </slot>

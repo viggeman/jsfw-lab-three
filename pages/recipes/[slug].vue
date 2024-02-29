@@ -5,11 +5,13 @@
 </template>
 
 <script setup>
-  const { id } = useRoute().params;
+  const { id } = useRoute().query;
   console.log(id);
-  const uri = 'http://localhost:4000/recipes/' + id;
-  console.log(uri);
+
+  const uri = `http://localhost:4000/recipes/${id}`;
+
   const { data: recipe, error } = await useFetch(uri);
+  console.log('only', recipe);
 
   const drawerStatus = ref(false);
 
@@ -19,7 +21,6 @@
 
       openDrawer() {
         drawerStatus.value = drawerStatus.value === true ? false : true;
-        console.log('hej', drawerStatus.value);
       },
     };
   });

@@ -1,6 +1,12 @@
 <template>
   <div class="card">
-    <NuxtLink :to="`/recipes/${recipe.id}`">
+    <NuxtLink
+      :to="{
+        name: 'recipes-slug',
+        params: { slug: recipe.slug },
+        query: { id: recipe.id },
+      }"
+    >
       <img
         class="w-full aspect-square h-h"
         src="https://source.unsplash.com/random"

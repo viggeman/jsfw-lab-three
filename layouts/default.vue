@@ -14,18 +14,9 @@
       </nav>
     </header>
 
-    <nav>
-      <!-- Navigation content goes here -->
-    </nav>
-
     <main class="container mx-auto">
-      <!-- Main content goes here -->
       <slot />
     </main>
-
-    <footer>
-      <!-- Footer content goes here -->
-    </footer>
   </div>
 </template>
 
