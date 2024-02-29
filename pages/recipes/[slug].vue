@@ -5,11 +5,11 @@
 </template>
 
 <script setup>
-  const { id } = useRoute().query;
-  console.log(id);
+  const { slug } = useRoute().params;
+  console.log(slug);
 
-  const uri = `http://localhost:4000/recipes/${id}`;
-
+  const uri = `http://localhost:4000/recipes?slug=${slug}`;
+  console.log('uri', uri);
   const { data: recipe, error } = await useFetch(uri);
   console.log('only', recipe);
 

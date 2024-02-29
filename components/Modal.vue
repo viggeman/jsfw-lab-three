@@ -7,7 +7,7 @@
 <template>
   <div v-if="drawerStatus" class="modal-mask">
     <div class="modal-wrapper">
-      <div class="modal-container">
+      <div class="modal-container w-11/12 sm:w-1/2">
         <button class="btn" @click="openDrawer">Open Drawer</button>
         <div class="modal-header">
           <slot name="header"> default header </slot>
@@ -32,7 +32,6 @@
   }
   .modal-container {
     height: 100%; /* 100% Full-height */
-    width: 35%; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */

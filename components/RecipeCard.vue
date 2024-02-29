@@ -4,7 +4,6 @@
       :to="{
         name: 'recipes-slug',
         params: { slug: recipe.slug },
-        query: { id: recipe.id },
       }"
     >
       <img
@@ -12,8 +11,8 @@
         src="https://source.unsplash.com/random"
         alt="Random Image"
       />
-      <div class="my-2">
-        <h1 class="text-xl">{{ recipe.title }}</h1>
+      <div class="md:my-2">
+        <h1 class="md:text-xl">{{ recipe.title }}</h1>
         <p>{{ recipe.category }}</p>
         <p>Time: {{ totalCookingTime }}</p>
       </div>

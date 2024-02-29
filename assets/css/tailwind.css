@@ -27,5 +27,5 @@ footer {
 }
 
 .card img {
-  @apply w-full items-center rounded-t-lg;
+  @apply w-full items-center;
 }
