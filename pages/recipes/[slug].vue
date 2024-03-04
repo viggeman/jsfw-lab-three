@@ -9,9 +9,7 @@
   console.log(slug);
 
   const uri = `http://localhost:4000/recipes?slug=${slug}`;
-  console.log('uri', uri);
   const { data: recipe, error } = await useFetch(uri);
-  console.log('only', recipe);
 
   const drawerStatus = ref(false);
 

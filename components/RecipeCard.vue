@@ -13,7 +13,7 @@
       />
       <div class="md:my-2">
         <h1 class="md:text-xl">{{ recipe.title }}</h1>
-        <p>{{ recipe.category }}</p>
+        <p>{{ recipeCategory }}</p>
         <p>Time: {{ totalCookingTime }}</p>
       </div>
     </NuxtLink>
@@ -31,6 +31,14 @@
     } else {
       return `${totalTime}min`;
     }
+  });
+  const recipeCategory = computed(() => {
+    const category = recipe.category;
+    const words = category.split('-');
+    const capitalizedWords = words.map(
+      (word) => word.charAt(0).toUpperCase() + word.slice(1)
+    );
+    return capitalizedWords.join(' ');
   });
 </script>
 
