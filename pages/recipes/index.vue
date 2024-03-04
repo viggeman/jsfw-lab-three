@@ -1,10 +1,35 @@
 <template>
   <div class="py-5">
     <input type="text" v-model="id" />
-    <input type="checkbox" v-model="checked" />
+
+    <input type="checkbox" id="vegan" value="vegan" v-model="checkedNames" />
+    <label for="vegan">Vegan</label>
+
+    <input
+      type="checkbox"
+      id="vegetarian"
+      value="vegetarian"
+      v-model="checkedNames"
+    />
+    <label for="vegetarian">Vegetarian</label>
+
+    <input
+      type="checkbox"
+      id="glutenFree"
+      value="glutenFree"
+      v-model="checkedNames"
+    />
+    <label for="glutenFree">Gluten Free</label>
+
+    <input
+      type="checkbox"
+      id="dairyFree"
+      value="dairyFree"
+      v-model="checkedNames"
+    />
+    <label for="dairyFree">Dairy Free</label>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-3 sm:mx-2">
       <RecipeCard
-        v-if="recipes"
         v-for="recipe in recipesSort"
         :key="recipe.id"
         :recipe="recipe"
@@ -15,38 +40,51 @@
 
 <script setup>
   const id = ref('');
-  const bool = ref(null);
-  console.log(bool.value);
-  const { data: recipes, error } = await useFetch(
-    'http://localhost:4000/recipes/'
-  );
-  // const { data: recipes, error } = useLazyFetch(
-  //   () => `http://localhost:4000/recipes/${id.value}`,
-  //   {
-  //     immediate: true,
-  //   }
-  // );
-  const { data: recipesSort, pending } = useLazyFetch(
-    'http://localhost:4000/recipes/',
-    {
-      query: {
-        origin: id,
-        vegan: bool,
-      },
-    }
-  );
-  const checked = computed({
+  const filterNamesTest = ref({
+    vegan: null,
+    vegetarian: null,
+    glutenFree: null,
+    dairyFree: null,
+  });
+  const checkedNamesTest = ref([]);
+
+  const { data: recipesSort } = useLazyFetch('http://localhost:4000/recipes/', {
+    query: {
+      origin: id,
+      vegan: filterNamesTest.value.vegan,
+      // vegetarian: filterNamesTest.value.vegetarian,
+    },
+  });
+
+  const checkedNames = computed({
     get: () => {
-      return bool.value === 1;
+      return checkedNamesTest.value;
     },
     set: (value) => {
-      console.log('value', value);
-      if (value === true) {
-        bool.value = 1;
-      } else if (value === false) {
-        bool.value = 0;
+      checkedNamesTest.value = value;
+      const updateFilterNames = (value) => {
+        const filterNames = {
+          vegan: value.includes('vegan') ? '1' : '0',
+          vegetarian: value.includes('vegetarian') ? '1' : '0',
+          glutenFree: value.includes('glutenFree') ? '1' : '0',
+          dairyFree: value.includes('dairyFree') ? '1' : '0',
+        };
+
+        filterNamesTest.value = { ...filterNamesTest.value, ...filterNames };
+      };
+
+      // Usage:
+      if (value.length === 0) {
+        filterNamesTest.value = {
+          vegan: null,
+          vegetarian: null,
+          glutenFree: null,
+          dairyFree: null,
+        };
+      } else {
+        updateFilterNames(value);
       }
-      console.log('bool value', bool.value);
+      console.log('filterNamesTest.value', filterNamesTest.value);
     },
   });
 </script>
