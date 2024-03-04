@@ -52,7 +52,6 @@
     query: {
       origin: id,
       vegan: filterNamesTest.value.vegan,
-      // vegetarian: filterNamesTest.value.vegetarian,
     },
   });
 
@@ -71,6 +70,7 @@
         };
 
         filterNamesTest.value = { ...filterNamesTest.value, ...filterNames };
+        console.log('filterNamesTest.value', filterNamesTest.value);
       };
 
       // Usage:
@@ -84,7 +84,6 @@
       } else {
         updateFilterNames(value);
       }
-      console.log('filterNamesTest.value', filterNamesTest.value);
     },
   });
 </script>
