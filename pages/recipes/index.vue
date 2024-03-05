@@ -4,7 +4,15 @@
 
     <input type="checkbox" id="vegan" value="vegan" v-model="checkedNames" />
     <label for="vegan">Vegan</label>
-
+    <nav>
+      <ul>
+        <li v-for="category in categories" :key="recipe.id">
+          <NuxtLink :to="`recipes/category/${category}`">{{
+            category
+          }}</NuxtLink>
+        </li>
+      </ul>
+    </nav>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-3 sm:mx-2">
       <RecipeCard
         v-for="recipe in recipesSort"
@@ -20,19 +28,20 @@
   const vegan = ref(null);
   const checkedNamesTest = ref([]);
 
-  const { data: recipesSort, pending } = useLazyFetch(
+  const { data: recipesSort } = await useFetch(
     'http://localhost:4000/recipes/',
     {
       query: {
         origin: id,
         vegan: vegan,
       },
-    },
-    {
-      immediate: false,
     }
   );
 
+  const categories = computed(() => {
+    const allCategories = recipesSort.value.map((recipe) => recipe.category);
+    return [...new Set(allCategories)]; // remove duplicates
+  });
   const checkedNames = computed({
     get: () => {
       return checkedNamesTest.value;

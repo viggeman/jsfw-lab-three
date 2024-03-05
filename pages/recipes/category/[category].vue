@@ -1,5 +1,6 @@
 <template>
   <div class="py-5">
+    <NuxtLink to="/recipes">Back to all recipes</NuxtLink>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-3 sm:mx-2">
       <RecipeCard
         v-for="recipe in categoryData"
@@ -13,7 +14,7 @@
 <script setup>
   const { category } = useRoute().params;
   console.log(category);
-  const uri = `http://localhost:4000/recipes?origin=${category}`;
+  const uri = `http://localhost:4000/recipes?category=${category}`;
   console.log(uri);
   const { data: categoryData, error } = await useFetch(uri);
 </script>
