@@ -22,6 +22,7 @@
 
 <script setup>
   const { recipe } = defineProps(['recipe']);
+
   const totalCookingTime = computed(() => {
     const totalTime = recipe.cook_time + recipe.prep_time;
     if (totalTime === 60) {
@@ -32,6 +33,7 @@
       return `${totalTime}min`;
     }
   });
+
   const recipeCategory = computed(() => {
     const category = recipe.category;
     const words = category.split('-');

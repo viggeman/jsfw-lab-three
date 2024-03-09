@@ -1,12 +1,9 @@
 <template>
   <div class="global-layout">
     <header>
-      <nav class="mx-auto p-7 flex justify-between">
-        <NuxtLink to="/">RECIPES</NuxtLink>
+      <nav class="mx-auto p-2 md:p-7 flex justify-between">
+        <NuxtLink to="/">HOME</NuxtLink>
         <ul class="flex gap-4">
-          <li>
-            <NuxtLink to="/">Home</NuxtLink>
-          </li>
           <li>
             <NuxtLink class="btn" to="/recipes">Recipes</NuxtLink>
           </li>
@@ -14,7 +11,7 @@
       </nav>
     </header>
 
-    <main class="mx-auto">
+    <main class="container mx-auto">
       <slot />
     </main>
   </div>

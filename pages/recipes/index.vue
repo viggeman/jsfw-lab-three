@@ -1,48 +1,51 @@
 <template>
-  <div class="py-5">
-    <Modal>
-      <template #header>
-        <h2>Filter</h2>
-      </template>
-      <template #content>
-        <ul>
-          <li v-for="origin in origins">
-            <input
-              type="radio"
-              :id="origin"
-              :value="origin"
-              v-model="originFilter"
-            />
-            {{ upperCase(origin) }}
-          </li>
-          <li>
-            <input type="radio" id="all" value="" v-model="originFilter" /> All
-          </li>
-        </ul>
-      </template>
-      <p>test</p>
-    </Modal>
-
-    <h3>Browse by category</h3>
-    <nav class="mx-auto p-7 flex justify-between">
-      <ul class="flex gap-4">
-        <li v-for="category in categories">
-          <NuxtLink
-            class="btn"
-            :to="{
-              name: 'recipes-category-category',
-              params: { category: category },
-            }"
-            >{{ upperCase(category) }}</NuxtLink
-          >
+  <Modal>
+    <template #header>
+      <h2 class="text-lg pb-4">Filter by origin:</h2>
+    </template>
+    <template #content>
+      <ul>
+        <li v-for="origin in origins">
+          <input
+            type="radio"
+            :id="origin"
+            :value="origin"
+            v-model="originFilter"
+          />
+          {{ upperCase(origin) }}
+        </li>
+        <li>
+          <input type="radio" id="all" value="" v-model="originFilter" /> All
         </li>
       </ul>
+    </template>
+  </Modal>
+
+  <div class="p-2 xl:p-15 md:p-7">
+    <h3 class="text-center pb-4 text-lg">Browse by category</h3>
+    <nav class="flex pb-4">
+      <div class="mx-auto">
+        <ul class="flex flex-wrap gap-4">
+          <li v-for="category in categories">
+            <NuxtLink
+              class="btn"
+              :to="{
+                name: 'recipes-category-category',
+                params: { category: category },
+              }"
+              >{{ upperCase(category) }}</NuxtLink
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
     <div class="flex justify-between">
-      <button @click="openDrawer.toggle()">Filter</button>
+      <button class="pb-3" @click="openDrawer.toggle()">
+        <span class="border-b-2 border-black hover:border-none">Filter</span>
+      </button>
       <p>Total: {{ filter.length }}</p>
     </div>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-3 sm:mx-2">
+    <div class="grid grid-cols-2 md:grid-cols-3 md:gap-3 gap-2">
       <RecipeCard v-for="recipe in filter" :key="recipe.id" :recipe="recipe" />
     </div>
   </div>
@@ -84,10 +87,6 @@
       watch: [originFilter],
     }
   );
-
-  watch(vegan, (newVal) => {
-    console.log('vegan', newVal);
-  });
 
   const origins = computed(() => {
     const allOrigins = recipeTest.value.map((recipe) => recipe.origin);

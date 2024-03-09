@@ -6,7 +6,9 @@
   <div v-if="openDrawer.status" class="modal-mask">
     <div class="modal-wrapper">
       <div class="modal-container w-11/12 sm:w-1/2">
-        <button class="btn" @click="openDrawer.toggle()">Open Drawer</button>
+        <button class="pb-7" @click="openDrawer.toggle()">
+          <span class="border-b-2 border-black hover:border-none">Close</span>
+        </button>
         <div class="modal-header">
           <slot name="header"> default header </slot>
         </div>
@@ -36,7 +38,6 @@
     right: 0;
     background-color: #fff; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    padding: 40px;
   }
 </style>
