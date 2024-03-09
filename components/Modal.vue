@@ -1,14 +1,12 @@
 <script setup>
-  const isOpen = inject('drawerStatus');
-
-  const { drawerStatus, openDrawer } = isOpen();
+  import { openDrawer } from '~/store/module/openDrawer';
 </script>
 
 <template>
-  <div v-if="drawerStatus" class="modal-mask">
+  <div v-if="openDrawer.status" class="modal-mask">
     <div class="modal-wrapper">
       <div class="modal-container w-11/12 sm:w-1/2">
-        <button class="btn" @click="openDrawer">Open Drawer</button>
+        <button class="btn" @click="openDrawer.toggle()">Open Drawer</button>
         <div class="modal-header">
           <slot name="header"> default header </slot>
         </div>

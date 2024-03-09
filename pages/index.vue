@@ -32,6 +32,18 @@
     'http://localhost:4000/recipes/'
   );
 
+  // const drawerStatus = ref(false);
+
+  // provide('drawerStatus', () => {
+  //   return {
+  //     drawerStatus,
+
+  //     openDrawer() {
+  //       drawerStatus.value = drawerStatus.value === true ? false : true;
+  //     },
+  //   };
+  // });
+
   const categories = computed(() => {
     const allCategories = recipesSort.value.map((recipe) => recipe.category);
     return [...new Set(allCategories)]; // remove duplicates
