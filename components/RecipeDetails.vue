@@ -25,10 +25,13 @@
 
       <ul>
         <li>
-          <button @click="openDrawer">Preparation</button>
+          <button @click="openDrawer.toggle()">Preparation</button>
         </li>
         <li>
-          <button @click="openDrawer">Ingredients</button>
+          <button @click="openDrawer.toggle()">Ingredients</button>
+        </li>
+        <li>
+          <button @click="openDrawer.toggle()">Open</button>
         </li>
       </ul>
     </div>
@@ -75,11 +78,10 @@
 </template>
 
 <script setup>
+  import { openDrawer } from '~/store/module/openDrawer';
   const { recipe } = defineProps(['recipe']);
   // const { recipe } = data;
   console.log('recipe detail', recipe[0].id);
-  const drawer = inject('drawerStatus');
-  const { openDrawer } = drawer();
 </script>
 
 <style scoped>
