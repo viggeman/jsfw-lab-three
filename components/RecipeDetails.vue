@@ -109,10 +109,6 @@
   const upperCase = (category) => {
     return category.charAt(0).toUpperCase() + category.slice(1);
   };
-
-  watch(ingredientCheck, (newValue) => {
-    console.log(newValue);
-  });
 </script>
 
 <style scoped>
